@@ -25,8 +25,8 @@
 			<input type = "radio" name = "gender_field" value = "Female"><label>Female</label>
 			<input type = "radio" name = "gender_field" value = "Male"><label>Male</label></p>
 
-		<p><label>Age: </label>
-			<select name = "age_field">
+		<p><label for="age_selected">Age: </label>
+			<select name = "age_field" id="age_selected">
 				<option selected = "">--Choose one option--</option>
 				<option selected = "Under 18">Under 18</option>
 				<option selected = "18-24">18-24</option>
@@ -50,7 +50,7 @@
 		<p><input type = "checkbox" name = "available_field[]" value = "Saturday"><label>Saturday</label></p>
 
 		<p><label>Any Comments? </label></p>
-		<textarea rows = "10" cols= "20" name =  "comments_field" placeholder = "Please place your comments here"></textarea>
+		<textarea rows = "20" cols= "60" name =  "comments_field" placeholder = "Please place your comments here"></textarea>
 
 			<input type = "hidden" name = "hidden_field" value = "cgardner3">
 	</fieldset>
